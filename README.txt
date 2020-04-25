@@ -40,3 +40,8 @@ instead.
 The program is designed in a way that
 -we may use a different service to get the time offset
 -we may read the list of cities from another source instead of a file
+
+
+Required JUnit Import on IntelliK:
+    org.junit.jupiter:junit-jupiter-engine:5.2.0
+    org.mockito:mockito-core:2.23.0
