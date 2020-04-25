@@ -33,10 +33,10 @@ Kiev          ...
 Warsaw        ...
 Krakow        ...
 
-If the service does not return a proper response, then display --- instead of
-the number. If there was a network error to access the data, print ERR
+If the service does not return a proper response, then --- will be displayed instead of
+the number. If there was a network error to access the data, ERR will be printed
 instead.
 
-Design the program in a way that
+The program is designed in a way that
 -we may use a different service to get the time offset
 -we may read the list of cities from another source instead of a file
